@@ -31,9 +31,9 @@
         </div>
         <div id="connect" class="row hide" >
             <div class="col s12 m4 offset-m4" >
-                <div class="card">
-                    <div class="card-action teal lighten-1 white-text" >
-                        <h3 class="card-title" >Video Chat P2P</h3>
+                <div class="card ">
+                    <div id="back-color" class="card-action lighten-1 white-text" >
+                        <h3 class="card-title " >CAIF P2P</h3>
                     </div>
                     <div class="card-content">
                         <div class="row">
@@ -43,7 +43,7 @@
                                         <input id="inputRoom" placeholder="room name" type="text" required>
                                         <label for="inputRoom">Room name:</label>
                                     </div><br>
-                                    <button type="submit" style="width: 100%;" class="btn-large waves-effect waves-dark">Enter</button>
+                                    <button type="submit" style="width: 100%;" class="btn-large waves-effect waves-dark back-color">Enter</button>
                                 </form>
                             </div>
                             <div class="col s6">
@@ -58,7 +58,7 @@
         </div>
         <div id="players" class="hide">
             <nav>
-                <div class="nav-wrapper teal">
+                <div id="back-color" class="nav-wrapper">
                   <ul class="right">
                     <li><a id="leave"><i class="material-icons">exit_to_app</i></a></li>
                   </ul>
@@ -90,6 +90,9 @@
                 </div>
             </div>
         </div>
+        <footer>
+            Developed By Daniel Rodrigues
+        </footer>
         <script type="text/javascript" src="js/materialize.min.js"></script>
         <script src="https://cdn.socket.io/socket.io-2.3.0.js"></script>
         <script src="js/user.js"></script>
